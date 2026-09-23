@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TechNash — Computer Science Engineer specializing in production-grade distributed systems, backend architecture, and cloud infrastructure." />
+  <meta name="theme-color" content="#eef7f0" />
+  <title>TechNash — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark">TN</span>
+        <span class="logo-text">TechNash</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Software Engineer · 3 Years Production Experience</p>
+        <h1 class="hero-title">
+          Building reliable systems<br />
+          that scale in production.
+        </h1>
+        <p class="hero-description">
+          Computer Science engineer with hands-on experience designing, shipping, and
+          maintaining backend services and distributed infrastructure. Focused on
+          performance, observability, and clean architecture.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#projects" class="btn btn-ghost">View Projects</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-value">3+</span>
+            <span class="stat-label">Years in Production</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">15+</span>
+            <span class="stat-label">Services Shipped</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">99.9%</span>
+            <span class="stat-label">Uptime Maintained</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+            <span class="terminal-title">technash@production</span>
+          </div>
+          <pre class="terminal-body"><code><span class="t-green">$</span> whoami
+technash — software engineer
+
+<span class="t-green">$</span> cat stack.json
+{
+  "languages": ["Go", "TypeScript", "Python"],
+  "backend":   ["Node.js", "gRPC", "REST"],
+  "data":      ["PostgreSQL", "MongoDB", "Redis"],
+  "cloud":     ["AWS", "Docker", "Kubernetes"],
+  "focus":     "distributed systems"
+}
+
+<span class="t-green">$</span> uptime
+3 years · production · zero regressions</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-label">01 — About</span>
+        <h2 class="section-title">Engineering with intent.</h2>
+      </header>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a Computer Science engineer with three years of production experience
+            building and operating backend systems. My work spans API design, service
+            architecture, data modeling, and cloud deployment — with a bias toward
+            measurable outcomes and maintainable code.
+          </p>
+          <p>
+            I've contributed to systems handling real traffic, where correctness,
+            latency, and observability are non-negotiable. I care about the details:
+            clean interfaces, predictable failure modes, and documentation that
+            actually helps the next engineer.
+          </p>
+        </div>
+
+        <div class="about-cards">
+          <div class="info-card">
+            <h3>What I Do</h3>
+            <ul>
+              <li>Backend service design and implementation</li>
+              <li>API architecture (REST, gRPC)</li>
+              <li>Database modeling and query optimization</li>
+              <li>Cloud infrastructure and deployment</li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <h3>How I Work</h3>
+            <ul>
+              <li>Measure first, optimize second</li>
+              <li>Write for the next reader</li>
+              <li>Ship small, iterate fast</li>
+              <li>Own the system end to end</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-label">02 — Experience</span>
+        <h2 class="section-title">Three years in production.</h2>
+      </header>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Software Engineer</h3>
+              <span class="timeline-period">2024 — Present</span>
+            </div>
+            <p class="timeline-company">Current Company · Full-time</p>
+            <ul class="timeline-list">
+              <li>Designed and shipped backend services handling high-throughput workloads.</li>
+              <li>Reduced API latency through query optimization and caching layers.</li>
+              <li>Introduced structured logging and monitoring across critical services.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Go</span><span>PostgreSQL</span><span>Redis</span><span>AWS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Backend Developer</h3>
+              <span class="timeline-period">2023 — 2024</span>
+            </div>
+            <p class="timeline-company">Previous Company · Full-time</p>
+            <ul class="timeline-list">
+              <li>Built REST APIs consumed by web and mobile clients.</li>
+              <li>Migrated legacy endpoints to a modular service architecture.</li>
+              <li>Automated deployment pipelines, cutting release time significantly.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Node.js</span><span>TypeScript</span><span>MongoDB</span><span>Docker</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Junior Developer</h3>
+              <span class="timeline-period">2022 — 2023</span>
+            </div>
+            <p class="timeline-company">First Role · Full-time</p>
+            <ul class="timeline-list">
+              <li>Contributed to production codebases under senior review.</li>
+              <li>Wrote integration tests and improved CI reliability.</li>
+              <li>Learned the discipline of shipping on schedule without shortcuts.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span><span>Flask</span><span>SQL</span><span>Git</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-label">03 — Skills</span>
+        <h2 class="section-title">Tools I use in production.</h2>
+      </header>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>Go</span><span>TypeScript</span><span>Python</span><span>JavaScript</span><span>SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span>Node.js</span><span>Express</span><span>gRPC</span><span>REST</span><span>GraphQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span>PostgreSQL</span><span>MongoDB</span><span>Redis</span><span>MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Cloud & DevOps</h3>
+          <div class="skill-tags">
+            <span>AWS</span><span>Docker</span><span>Kubernetes</span><span>CI/CD</span><span>Vercel</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Practices</h3>
+          <div class="skill-tags">
+            <span>System Design</span><span>Code Review</span><span>Observability</span><span>Testing</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <div class="skill-tags">
+            <span>Git</span><span>Linux</span><span>Postman</span><span>Grafana</span><span>Jira</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-label">04 — Projects</span>
+        <h2 class="section-title">Selected work.</h2>
+      </header>
+
+      <div class="grid" id="projects-grid">
+        <!-- Populated by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-label">05 — Contact</span>
+        <h2 class="section-title">Let's build something reliable.</h2>
+      </header>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-intro">
+            Open to backend engineering roles, consulting, and collaborations
+            on systems that need to work in the real world.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-label">Email</span>
+              <a href="mailto:hello@technash.dev" class="contact-value">hello@technash.dev</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com" target="_blank" rel="noopener" class="contact-value">github.com/technash</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-value">linkedin.com/in/technash</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Remote · Available worldwide</span>
+            </div>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required />
+          </div>
+
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What is this regarding?" />
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about the project or role..." required></textarea>
+          </div>
+
+          <!-- Honeypot -->
+          <input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off" />
+
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">TN</span>
+        <span>TechNash</span>
+      </div>
+      <p class="footer-note">Software Engineer · Production Systems · Distributed Architecture</p>
+      <p class="footer-copy">© <span id="year"></span> TechNash. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
