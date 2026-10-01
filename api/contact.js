@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const uri = process.env.MONGODB_URI;
+const uri = process.env.MONGODB_URI_MONGODB_URI;
 const dbName = "portfolio";
 
 // Cache client across invocations (critical on Vercel)
